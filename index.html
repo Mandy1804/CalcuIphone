@@ -12,33 +12,35 @@
             <input type="text" id="display" readonly>
         </div>
         <div class="botoes">
-            <button onclick="">AC</button>
-            <button onclick="">+/-</button>
-            <button onclick="">%</button>
-            <button onclick="">➗</button>
+            <button class="btcinzadark"  onclick="limpar ('0')">AC</button>
+            <button class="btcinzadark">+/-</button>
+            <button class="btcinzadark">%</button>
+            <button class="btlaranja">÷</button>
+            
 
 
-            <button onclick="">7</button>
-            <button onclick="">8</button>
-            <button onclick="">9</button>
-            <button onclick="">X</button>
+            <button class="btcinza" onclick="expressao ('7')">7</button>
+            <button class="btcinza" onclick="expressao ('8')">8</button>
+            <button class="btcinza" onclick="expressao ('9')">9</button>
+            <button class="btlaranja">X</button>
 
-            <button onclick="">4</button>
-            <button onclick="">5</button>
-            <button onclick="">6</button>
-            <button onclick="">-</button>
+            <button class="btcinza"  onclick="expressao ('4')">4</button>
+            <button class="btcinza"  onclick="expressao ('5')">5</button>
+            <button class="btcinza"  onclick="expressao ('6')">6</button>
+            <button class="btlaranja">-</button>
 
-            <button onclick="">1</button>
-            <button onclick="">2</button>
-            <button onclick="">3</button>
-            <button onclick="">+</button>
+            <button class="btcinza"  onclick="expressao ('1')">1</button>
+            <button class="btcinza"  onclick="expressao ('2')">2</button>
+            <button class="btcinza"  onclick="expressao ('3')">3</button>
+            <button class="btlaranja"  onclick="expressao ('+')">+</button>
 
             
-            <button onclick=""><img id="cal" src="../CalcuIphone/imagem/pocket-calculator-3632.png" alt="cal"></button>
-            <button onclick="">0</button>
-            <button onclick="">,</button>
-            <button onclick="">=</button>
+            <button class="btcinza"><img id="cal" src="../CalcuIphone/imagem/Capturar-removebg-preview.png" alt="cal"></button>
+            <button class="btcinza"  onclick="expressao ('0')">0</button>
+            <button class="btcinza" onclick="expressao (',')">,</button>
+            <button class="btlaranja"  onclick="resultado ('=')">=</button>
         </div>
      </div>
+     <script src="../CalcuIphone/js/script.js"></script>
 </body>
 </html>

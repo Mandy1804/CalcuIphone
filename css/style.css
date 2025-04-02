@@ -2,14 +2,36 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(0, 0, 0);
 }
 
 .botoes{
     display: grid;
     grid-template-columns:repeat(4 ,1fr);
+
 }
 
+.botoes button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border:none;
+    margin: 1px;
+    color: white;
+}
 
 img{
-    width:25px;
+    width:15px;
+}
+
+.btlaranja {
+    background-color: orange;
+}
+
+.btcinzadark {
+    background-color: rgb(151, 149, 149);
+}
+
+.btcinza {
+    background-color: rgba(32, 32, 32, 0.541);
 }
